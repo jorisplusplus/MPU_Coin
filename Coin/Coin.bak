@@ -130,7 +130,6 @@ Wire Wire Line
 NoConn ~ 3600 4450
 NoConn ~ 3600 4550
 NoConn ~ 3600 4250
-NoConn ~ 2200 4450
 $Comp
 L Connector_Generic:Conn_02x03_Odd_Even J1
 U 1 1 5D113EA7
@@ -211,4 +210,7 @@ Wire Wire Line
 Connection ~ 2200 4850
 Wire Wire Line
 	2200 4850 2200 4950
+Wire Wire Line
+	2200 4450 2200 4750
+Connection ~ 2200 4750
 $EndSCHEMATC
