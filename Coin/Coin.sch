@@ -1,15 +1,15 @@
 EESchema Schematic File Version 4
 LIBS:Coin-cache
-EELAYER 26 0
+EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
-Title ""
+Title "Campzone 2019 Coin"
 Date ""
 Rev ""
 Comp ""
-Comment1 ""
+Comment1 "The MPU-6050 breakout to be used on badges using the shitty addon connector pinout"
 Comment2 ""
 Comment3 ""
 Comment4 ""
@@ -134,48 +134,48 @@ NoConn ~ 3600 4250
 $Comp
 L Connector_Generic:Conn_02x03_Odd_Even J1
 U 1 1 5D113EA7
-P 1450 4350
-F 0 "J1" V 1454 4530 50  0000 L CNN
-F 1 "Conn_02x03_Odd_Even" V 1545 4530 50  0000 L CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_2x03_P2.54mm_Vertical" H 1450 4350 50  0001 C CNN
-F 3 "~" H 1450 4350 50  0001 C CNN
-	1    1450 4350
+P 1500 2850
+F 0 "J1" V 1504 3030 50  0000 L CNN
+F 1 "Conn_02x03_Odd_Even" V 1595 3030 50  0000 L CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_2x03_P2.54mm_Vertical" H 1500 2850 50  0001 C CNN
+F 3 "~" H 1500 2850 50  0001 C CNN
+	1    1500 2850
 	0    1    1    0   
 $EndComp
 $Comp
 L power:+3.3V #PWR0106
 U 1 1 5D11423C
-P 1350 4100
-F 0 "#PWR0106" H 1350 3950 50  0001 C CNN
-F 1 "+3.3V" H 1365 4273 50  0000 C CNN
-F 2 "" H 1350 4100 50  0001 C CNN
-F 3 "" H 1350 4100 50  0001 C CNN
-	1    1350 4100
+P 1400 2600
+F 0 "#PWR0106" H 1400 2450 50  0001 C CNN
+F 1 "+3.3V" H 1415 2773 50  0000 C CNN
+F 2 "" H 1400 2600 50  0001 C CNN
+F 3 "" H 1400 2600 50  0001 C CNN
+	1    1400 2600
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR0107
 U 1 1 5D1142DF
-P 1350 4750
-F 0 "#PWR0107" H 1350 4500 50  0001 C CNN
-F 1 "GND" H 1355 4577 50  0000 C CNN
-F 2 "" H 1350 4750 50  0001 C CNN
-F 3 "" H 1350 4750 50  0001 C CNN
-	1    1350 4750
+P 1400 3250
+F 0 "#PWR0107" H 1400 3000 50  0001 C CNN
+F 1 "GND" H 1405 3077 50  0000 C CNN
+F 2 "" H 1400 3250 50  0001 C CNN
+F 3 "" H 1400 3250 50  0001 C CNN
+	1    1400 3250
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1350 4100 1350 4150
+	1400 2600 1400 2650
 Wire Wire Line
-	1350 4650 1350 4750
-Text GLabel 1450 4050 1    50   Input ~ 0
+	1400 3150 1400 3250
+Text GLabel 1500 2550 1    50   Input ~ 0
 SDA
-Text GLabel 1450 4750 3    50   Input ~ 0
+Text GLabel 1500 3250 3    50   Input ~ 0
 SCL
 Wire Wire Line
-	1450 4650 1450 4750
+	1500 3150 1500 3250
 Wire Wire Line
-	1450 4050 1450 4150
+	1500 2550 1500 2650
 Text GLabel 2150 4250 0    50   Input ~ 0
 SDA
 Text GLabel 2150 4350 0    50   Input ~ 0
